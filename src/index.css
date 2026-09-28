@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Playfair Display', serif;
+  
+  --color-cream-bg: #FDFaf2;
+  --color-yp-gold: #b88222;
+  --color-yp-dark: #1c1a17;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: var(--color-cream-bg);
+  color: #333;
+}
